@@ -1,0 +1,37 @@
+$primary:green;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+
+
+
+
+//custom css
+.header{
+    background:#ffffffb5;
+    backdrop-filter: blur(15px) contrast(130%);
+    z-index:1005;
+
+}
+.header-icon{
+    width:40px;
+    height:40px;
+}
+.services-svg{
+    width:65px;
+    height:65px;
+    fill: var(--bs-primary);
+}
+.scroll-to-top{
+    bottom:50px;
+    right: 50px;
+}
+
+@media screen and (max-width:480px){
+    .dhome{
+        flex-direction: column-reverse;
+    }
+    
+}
+
